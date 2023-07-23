@@ -1,0 +1,213 @@
+/************************************************************/
+/************************************************************/
+/*                                                          */
+/*   Corporate Web Services, Inc.                           */
+/*                                                          */
+/************************************************************/
+/************************************************************/
+
+BODY {
+	font-family: tahoma, verdana, arial, sans-serif;
+	text-align: center;
+	background: #777 url('images/topBG.gif') repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	scrollbar-face-color: #999;
+	scrollbar-arrow-color: #fff;
+	scrollbar-base-color: #777;
+	scrollbar-shadow-color: #999;
+	scrollbar-darkshadow-color: #000;
+	scrollbar-highlight-color: #555;
+	scrollbar-3dlight-color: #777;
+	scrollbar-track-color: #444;
+}
+
+TABLE, p, #rightCol ul, #rightCol ol {
+	font-size: 80%;
+}
+
+#rightCol ol ol, #rightCol ul ul {
+	font-size: 100%;
+}
+
+h1 {
+	font-family: arial, helvetica, tahoma, verdana, sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px 0px 10px;
+}
+
+h2 {
+	font-family: arial, helvetica, tahoma, verdana, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 5px 0px 10px;
+}
+
+h3 {
+	font-family: tahoma, verdana, arial, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 5px 0px 10px;
+	color: #fff;
+}
+
+p, form {
+	margin: 10px;
+}
+
+ul, ol {
+	margin: 5px auto 15px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+A {
+	color: #1F305E;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+A:hover {
+	color: #fff;
+}
+
+INPUT, SELECT, TEXTAREA {
+	font-family: tahoma, verdana, arial, sans-serif;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 0px 2px;
+	margin: 1px 0px;
+}
+
+INPUT.button {
+	font-weight: bold;
+	border: 1px solid #444;
+	color: #1F305E;
+	padding: 0px;
+	font-size: 90%;
+}
+
+#page {
+	width: 750px;
+	background: #F0EBE3 url('images/leftCol.gif') repeat-y;
+	padding-bottom: 10px;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#banner {
+	background: #fff url('images/title.gif');
+	border: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	text-align:right;
+}
+
+#leftCol {
+	margin: 15px 5px 30px 5px;
+	float: left;
+	width: 160px;
+}
+
+#leftCol p {
+	font-size: 70%;
+}
+
+#leftCol p a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#rightCol {
+	padding: 15px 10px 30px;
+	margin-left: 200px;
+}
+
+#menu {
+	margin: 0 0 25px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url('images/bar.gif') bottom center no-repeat;
+	padding-bottom: 6px;
+	padding-top: 4px;
+}
+
+#menu li ol {
+	margin: 0 auto;
+	display: none;
+}
+
+#menu li ol li {
+	margin: 0 0 0 30px;
+	padding: 1px;
+	background: none;
+	text-align: left;
+	font-size: 70%;
+}
+
+.whitespace {
+	clear: both;
+}
+
+#footer {
+	width: 750px;
+	background: #444;
+	font-size: 70%;
+	color: #fff;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.upperAlpha {
+	list-style-type:upper-alpha;
+	margin-left: 25px;
+}
+
+.upperRoman {
+	list-style-type:upper-roman;
+	margin-left: 30px;
+}
+
+#gallery a {
+	display: block;
+	float: left;
+	background: #DED6CE;
+	margin: 5px;
+	border: 1px solid #777;
+	height: 130px;
+}
+
+#gallery a:hover {
+	border: #000;
+	background: #CEC6BE;
+	border: 1px solid #444;
+}
+
+#gallery a img {
+	border: 1px solid #999;
+	margin: 5px;
+}
+
+#gallery hr {
+	border: 1px solid #999;
+	height: 1px;
+}
